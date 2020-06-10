@@ -5,7 +5,9 @@ describe("Sandbox", () => {
   let sandbox: Sandbox;
 
   beforeEach(() => {
-    const sandboxJson = JSON.parse(readFileSync(join(__dirname, "fixtures/validSandbox.json")).toString());
+    const sandboxJson = JSON.parse(
+      readFileSync(join(__dirname, "../../../test/fixtures/validSandbox.json")).toString(),
+    );
     sandbox = new Sandbox(sandboxJson);
   });
   it("has a DirectorySet", () => {

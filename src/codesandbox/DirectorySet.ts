@@ -10,8 +10,12 @@ class DirectorySet {
     });
   }
 
-  public get(shortid: string): Directory | undefined {
-    return this.map.get(shortid);
+  public get(shortid: string | undefined | null): Directory | undefined {
+    if (shortid) {
+      return this.map.get(shortid);
+    } else {
+      return undefined;
+    }
   }
 
   public get size() {

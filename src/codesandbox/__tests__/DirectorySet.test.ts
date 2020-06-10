@@ -1,4 +1,4 @@
-import { Directory } from "../Directory";
+import Directory from "../Directory";
 import DirectorySet from "../DirectorySet";
 
 describe("DirectorySet", () => {

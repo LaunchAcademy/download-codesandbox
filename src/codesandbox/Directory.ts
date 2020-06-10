@@ -7,3 +7,5 @@ export interface Directory {
   title: string;
   updated_at: string;
 }
+
+export default Directory;
