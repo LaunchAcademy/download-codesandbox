@@ -1,0 +1,132 @@
+{
+  "custom_template": null,
+  "alias": "download-client-integration-e1qu9",
+  "npm_dependencies": { "react": "16.0.0", "react-dom": "16.0.0" },
+  "forked_template": {
+    "color": "#dfb07a",
+    "icon_url": null,
+    "id": "e7f29750-e9d2-4eab-94a3-25cd50e21c9e",
+    "official": false,
+    "published": true,
+    "title": "Vanilla",
+    "url": null
+  },
+  "is_frozen": false,
+  "entry": "src/index.js",
+  "owned": false,
+  "id": "e1qu9",
+  "forked_template_sandbox": {
+    "alias": "vanilla-vanilla",
+    "custom_template": {
+      "color": "#dfb07a",
+      "icon_url": null,
+      "id": "e7f29750-e9d2-4eab-94a3-25cd50e21c9e",
+      "official": false,
+      "published": true,
+      "title": "Vanilla",
+      "url": null
+    },
+    "git": null,
+    "id": "vanilla",
+    "inserted_at": "2018-02-28T16:00:16",
+    "privacy": 0,
+    "template": "parcel",
+    "title": "Vanilla",
+    "updated_at": "2020-05-18T09:03:30"
+  },
+  "updated_at": "2020-06-09T02:09:08",
+  "room_id": null,
+  "description": null,
+  "original_git": null,
+  "team": null,
+  "feature_flags": { "comments": false, "container_lsp": false },
+  "title": "download-client-integration",
+  "directories": [
+    {
+      "directory_shortid": null,
+      "id": "e59f5cd8-84d7-409f-a60e-7876aa0e71c4",
+      "inserted_at": "2020-06-09T02:08:43",
+      "shortid": "GXOoy",
+      "source_id": "c9f471e9-7389-4624-a86d-01325610968a",
+      "title": "src",
+      "updated_at": "2018-02-28T16:00:15"
+    }
+  ],
+  "modules": [
+    {
+      "code": "{\n  \"name\": \"download-client-integration\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"index.html\",\n  \"scripts\": {\n    \"start\": \"parcel index.html --open\",\n    \"build\": \"parcel build index.html\"\n  },\n  \"dependencies\": {},\n  \"devDependencies\": {\n    \"@babel/core\": \"7.2.0\",\n    \"parcel-bundler\": \"^1.6.1\"\n  },\n  \"keywords\": []\n}",
+      "directory_shortid": null,
+      "id": "ed7f965b-2ba0-4a1b-9b0d-e9c5528ab0e6",
+      "inserted_at": "2020-06-09T02:08:43",
+      "is_binary": false,
+      "shortid": "ZGQK6",
+      "source_id": "c9f471e9-7389-4624-a86d-01325610968a",
+      "title": "package.json",
+      "updated_at": "2020-06-09T02:09:08",
+      "upload_id": null
+    },
+    {
+      "code": "body {\n  font-family: sans-serif;\n}\n",
+      "directory_shortid": "GXOoy",
+      "id": "5f2ac7d3-52b2-4130-a2c6-6b169d0178de",
+      "inserted_at": "2020-06-09T02:08:43",
+      "is_binary": false,
+      "shortid": "xwo6E",
+      "source_id": "c9f471e9-7389-4624-a86d-01325610968a",
+      "title": "styles.css",
+      "updated_at": "2018-11-25T19:19:44",
+      "upload_id": null
+    },
+    {
+      "code": "import \"./styles.css\";\n\ndocument.getElementById(\"app\").innerHTML = `\n<h1>Hello Vanilla!</h1>\n<div>\n  We use the same configuration as Parcel to bundle this sandbox, you can find more\n  info about Parcel \n  <a href=\"https://parceljs.org\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.\n</div>\n`;\n",
+      "directory_shortid": "GXOoy",
+      "id": "7f02e291-7485-4c9f-be23-a6490556dca5",
+      "inserted_at": "2020-06-09T02:08:43",
+      "is_binary": false,
+      "shortid": "wRo98",
+      "source_id": "c9f471e9-7389-4624-a86d-01325610968a",
+      "title": "index.js",
+      "updated_at": "2020-05-05T12:20:19",
+      "upload_id": null
+    },
+    {
+      "code": "<!DOCTYPE html>\n<html>\n\n<head>\n\t<title>Parcel Sandbox</title>\n\t<meta charset=\"UTF-8\" />\n</head>\n\n<body>\n\t<div id=\"app\"></div>\n\n\t<script src=\"src/index.js\">\n\t</script>\n</body>\n\n</html>",
+      "directory_shortid": null,
+      "id": "4ab52b7f-a473-4ef0-9442-d9e232f5967b",
+      "inserted_at": "2020-06-09T02:08:43",
+      "is_binary": false,
+      "shortid": "MWN4P",
+      "source_id": "c9f471e9-7389-4624-a86d-01325610968a",
+      "title": "index.html",
+      "updated_at": "2018-11-26T21:50:47",
+      "upload_id": null
+    }
+  ],
+  "author": {
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1082?v=4",
+    "id": "8328d7c2-08ee-4079-a88c-b9ac2e34a0ec",
+    "name": "Dan Pickett",
+    "subscription_plan": "patron",
+    "subscription_since": "2018-12-21T20:07:49Z",
+    "username": "dpickett"
+  },
+  "privacy": 0,
+  "collection": false,
+  "source_id": "c9f471e9-7389-4624-a86d-01325610968a",
+  "tags": [],
+  "git": null,
+  "is_sse": false,
+  "forked_from_sandbox": null,
+  "external_resources": [],
+  "view_count": 11,
+  "picks": [],
+  "fork_count": 0,
+  "original_git_commit_sha": null,
+  "template": "parcel",
+  "like_count": 0,
+  "authorization": "read",
+  "version": 2,
+  "screenshot_url": null,
+  "preview_secret": null,
+  "user_liked": false
+}
