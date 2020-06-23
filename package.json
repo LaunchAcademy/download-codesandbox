@@ -28,6 +28,7 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
+    "prepare": "yarn run build",
     "test": "jest",
     "test:coverage": "jest --coverage"
   }
