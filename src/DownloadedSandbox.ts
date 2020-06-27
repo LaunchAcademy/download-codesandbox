@@ -3,7 +3,7 @@ import MemFsAdapter from "./adapters/MemFsAdapter";
 import Sandbox from "./codesandbox/Sandbox";
 import extractIdFromUrl from "./codesandbox/extractIdFromUrl";
 
-class DownloadedSandbox {
+export class DownloadedSandbox {
   static getByUrl(url: string) {
     const id = extractIdFromUrl(url);
     if (id) {
@@ -21,5 +21,3 @@ class DownloadedSandbox {
     });
   }
 }
-
-export default DownloadedSandbox;
