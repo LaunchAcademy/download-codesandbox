@@ -1,5 +1,11 @@
+import { Module } from "./Module";
+import Directory from "./Directory";
+
 interface ApiResponse {
-  data: object;
+  data: {
+    modules?: Module[];
+    directories?: Directory[];
+  };
 }
 
 export default ApiResponse;

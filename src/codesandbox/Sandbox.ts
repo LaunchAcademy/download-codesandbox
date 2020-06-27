@@ -5,9 +5,9 @@ import { Directory } from "./Directory";
 class Sandbox {
   directorySet: DirectorySet;
   modules: Module[];
-  constructor(data: { modules: Module[]; directories: Directory[] }) {
-    this.modules = data.modules;
-    this.directorySet = new DirectorySet(data.directories);
+  constructor(data: { modules?: Module[]; directories?: Directory[] }) {
+    this.modules = data.modules || [];
+    this.directorySet = new DirectorySet(data.directories || []);
   }
 }
 
