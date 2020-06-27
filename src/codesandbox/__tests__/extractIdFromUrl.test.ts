@@ -8,4 +8,8 @@ describe("exractIdFromUrl", () => {
   it("returns the id from a codesandbox url", () => {
     expect(extractIdFromUrl("https://codesandbox.io/s/download-client-integration-e1qu9")).toEqual("e1qu9");
   });
+
+  it("returns the id from a codesandbox url", () => {
+    expect(extractIdFromUrl("https://codesandbox.io/s/xisgq?file=/tsconfig.json:0-2")).toEqual("xisgq");
+  });
 });
