@@ -2,7 +2,9 @@
   "name": "download-codesandbox",
   "version": "0.0.1",
   "description": "Codesandbox Download CLI",
-  "main": "index.js",
+  "main": "lib/cjs/index.js",
+  "types": "lib/esm/index.d.ts",
+  "type": "commonjs",
   "author": "Dan Pickett",
   "license": "MIT",
   "private": false,
@@ -25,11 +27,12 @@
     "typescript": "^3.9.5"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "yarn run tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "yarn run build",
     "test": "jest",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json"
   }
 }
